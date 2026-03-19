@@ -1,0 +1,38 @@
+.articles {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    gap: 1.5rem;
+}
+
+.article {
+    text-align: center;
+    justify-content: center;
+    border: 2px solid #D4AF37;
+    border-radius: 0px;
+    max-width: 350px;
+}
+
+.art-frame {
+    width: 350px;
+    height: 350px;
+}
+
+.article-link {
+    text-decoration: none;
+    color: inherit;
+    display: block;
+}
+
+.article-link:hover .article {
+    background: white;
+    cursor: pointer;
+}
+
+.article-link:hover .article h2 {
+    color: black;
+}
+
+.article {
+    transition: 0.1s;
+}

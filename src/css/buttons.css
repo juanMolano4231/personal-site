@@ -1,0 +1,15 @@
+
+.buttons {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    max-width: 500px;
+    justify-content: center;
+}
+
+.buttons img {
+    margin: 0.5rem;
+    display: block;
+    width: auto;
+    height: auto;
+}

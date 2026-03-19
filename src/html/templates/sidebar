@@ -1,0 +1,15 @@
+<aside class="sidebar">
+
+    <img src="../images/Waaah.png">
+
+    <hr>
+
+    <nav>
+        <ul>
+            <li><a href="../index.html">Index</a></li>
+            <li><a href="articles.html" class="selected">Articles</a></li>
+            <li><a href="anime.html">Anime</a></li>
+            <li><a href="games.html">Games</a></li>
+        </ul>
+    </nav>
+</aside>

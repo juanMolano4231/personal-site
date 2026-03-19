@@ -1,0 +1,48 @@
+html {
+    background:#520D0D;
+}
+
+body {
+    margin: 0;
+    font-family: 'Times New Roman', serif;
+}
+
+button {
+    font-family: 'Times New Roman', serif;
+}
+
+h1, h2, h3, h4, h5, h6, p {
+    color: white;
+}
+
+hr {
+    color: #D4AF37;
+}
+
+h1 {
+    font-size: 60px;
+}
+
+h2 {
+    font-size: 40px;
+}
+
+h3 {
+    font-size: 35px;
+}
+
+h4 {
+    font-size: 32px;
+}
+
+h5 {
+    font-size: 28px;
+}
+
+h6 {
+    font-size: 25px;
+}
+
+p {
+    font-size: 22px;
+}
