@@ -1,0 +1,50 @@
+
+.top-element {
+    width: 1200px;
+    border: 2px solid #D4AF37;
+    border-radius: 0px;
+    padding: 1rem;
+    background-color: #e9ffff;
+    color: black;
+}
+
+.top-element img {
+    float: left;
+    width: 400px;
+    height: auto;
+    margin: 0 1rem 1rem 0;
+}
+
+.top-element::after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+.top-element h1 {
+    font-size: 35px;
+    margin-top: 0;
+}
+
+.clear {
+    clear: both;
+}
+
+.top-element h1, h2, h3, h4, h5, h6, p {
+    color: black;
+}
+
+button {
+  padding: 10px 16px;
+  background: #D4AF37;
+  color: #000;
+  border: 0px solid #520D0D;
+  border-radius: 0px;
+  cursor: pointer;
+  font-size: 40px;
+  margin-top: 5rem;
+}
+
+button:hover {
+  background: #e6c75a;
+}
